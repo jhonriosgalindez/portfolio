@@ -13,7 +13,7 @@ export default function Projects() {
         <div className={styles.card}>
           <h3 className={styles.cardTitle}>Portfolio</h3>
           <article className={`${styles.cardItem} ${styles.cardItem1}`}>
-            <p className={styles.cardParagraph}>TECHNOLOGIES: HTML, CSS, JavaScript and Webpack. FRAMEWAORK AND LIBRARIES: ReactJS, NextJS. CONCEPTS: React Hooks, events, components, webpack configuration and Responsive Design.</p>
+            <p className={styles.cardParagraph}>TECHNOLOGIES: HTML, CSS, JavaScript. FRAMEWAORK AND LIBRARIES: ReactJS, NextJS. CONCEPTS: React Hooks, events, components and Responsive Design.</p>
           </article>
           <ul className={styles.cardList}>
             <a className={styles.cardLink} href='https://github.com/jhonriosgalindez/portfolio' target='_blank'>
