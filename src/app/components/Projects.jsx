@@ -16,11 +16,11 @@ export default function Projects() {
             <p className={styles.cardParagraph}>TECHNOLOGIES: HTML, CSS, JavaScript and Webpack. FRAMEWAORK AND LIBRARIES: ReactJS, NextJS. CONCEPTS: React Hooks, events, components, webpack configuration and Responsive Design.</p>
           </article>
           <ul className={styles.cardList}>
-            <a className={styles.cardLink} href='' target='_blank'>
+            <a className={styles.cardLink} href='https://github.com/jhonriosgalindez/portfolio' target='_blank'>
               <Image src={iconGithub} width={30} height={30} alt="icon-github"/>
               <span className={styles.cardTextLink}>Repository</span>
             </a>
-            <a className={styles.cardLink} href='' target='_blank'>
+            <a className={styles.cardLink} href='https://jhonriosportfolio.vercel.app/' target='_blank'>
               <span className={styles.cardTextLink}>Vercel</span>
               <Image src={iconVercel} width={30} height={30} alt="icon-vercel"/>
             </a>
