@@ -11,7 +11,7 @@ export default function Introduce() {
           <h1 className={styles.name}>Jhon Rios</h1>
           <h2 className={styles.title}>Front End Developer</h2>
           <p className={styles.text}>Hi there, I'm a software developer to websites and webapps. My specialty is client side development.</p>
-          <a href="../../../pdf/cv-jhon-rios.pdf" className={styles.download} download>Download CV</a>
+          <a href="../../..pdf/cv-jhonrios.pdf" className={styles.download} download>Download CV</a>
         </div>
         <Image 
         className={styles.image}
