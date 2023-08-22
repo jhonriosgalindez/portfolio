@@ -85,6 +85,9 @@
 .cardItem8 {
   background-image: url('../assets/images/jhonrios-clima-app.netlify.app_.png');
 }
+.cardItem9 {
+  background-image: url('../assets/images/jhonrios-tesla-landing.netlify.app_.png');
+}
 .card article:hover .cardParagraph {
   opacity: 1;
   background-color: rgba(0, 0, 0, .75);

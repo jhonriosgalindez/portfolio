@@ -28,7 +28,7 @@ export default function Projects() {
         </div>
         <div className={styles.card}>
           <h3 className={styles.cardTitle}>Tesla</h3>
-          <article className={`${styles.cardItem} ${styles.cardItem2}`}>
+          <article className={`${styles.cardItem} ${styles.cardItem9}`}>
             <p className={styles.cardParagraph}>TECHNOLOGIES: HTML, CSS and JavaScript. Framework CSS: TailwindCSS. Frameworks: Astro. CONCEPTS: Responsive Design.</p>
           </article>
           <ul className={styles.cardList}>

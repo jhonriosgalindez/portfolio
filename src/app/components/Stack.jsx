@@ -9,6 +9,8 @@ import iconReact from '../assets/icons/icon-react.svg';
 import iconGit from '../assets/icons/icon-git.svg';
 import iconNextJS from '../assets/icons/icon-nextjs.svg';
 import iconSass from '../assets/icons/icon-sass.svg';
+import iconTailwindcss from '../assets/icons/icon-tailwindcss.svg';
+import iconAstro from '../assets/icons/icon-astro.svg';
 
 export default function Stack() {
   return (
@@ -30,6 +32,10 @@ export default function Stack() {
               <h3>SCSS</h3>
             </ul>
             <ul className={styles.technologiesList}>
+              <Image src={iconTailwindcss} width={75} height={75} alt="icon-tailwindcss"></Image>
+              <h3>TailwindCSS</h3>
+            </ul>
+            <ul className={styles.technologiesList}>
               <Image src={iconJS} width={75} height={75} alt="icon-javascript"></Image>
               <h3>JavaScript</h3>
             </ul>
@@ -44,6 +50,10 @@ export default function Stack() {
             <ul className={styles.technologiesList}>
               <Image src={iconNextJS} width={75} height={75} alt="icon-nextjs"></Image>
               <h3>Next.js</h3>
+            </ul>
+            <ul className={styles.technologiesList}>
+              <Image src={iconAstro} width={75} height={75} alt="icon-astro"></Image>
+              <h3>Astro</h3>
             </ul>
             <ul className={styles.technologiesList}>
               <Image src={iconGit} width={75} height={75} alt="icon-git"></Image>
