@@ -27,6 +27,22 @@ export default function Projects() {
           </ul>
         </div>
         <div className={styles.card}>
+          <h3 className={styles.cardTitle}>Tesla</h3>
+          <article className={`${styles.cardItem} ${styles.cardItem2}`}>
+            <p className={styles.cardParagraph}>TECHNOLOGIES: HTML, CSS and JavaScript. Framework CSS: TailwindCSS. Frameworks: Astro. CONCEPTS: Responsive Design.</p>
+          </article>
+          <ul className={styles.cardList}>
+            <a className={styles.cardLink} width={30} height={30} href="https://github.com/jhonriosgalindez/tesla-landing" target='_blank'>
+              <Image src={iconGithub} alt="icon-github"/>
+              <span className={styles.cardTextLink}>Repository</span>
+            </a>
+            <a className={styles.cardLink} href="https://jhonrios-tesla-landing.netlify.app/" target='_blank'>
+              <span className={styles.cardTextLink}>Netlify</span>
+              <Image src={iconNetlify} width={30} height={30} alt="icon-netlify"/>
+            </a>
+          </ul>
+        </div>
+        <div className={styles.card}>
           <h3 className={styles.cardTitle}>Azami Restaurant</h3>
           <article className={`${styles.cardItem} ${styles.cardItem2}`}>
             <p className={styles.cardParagraph}>TECHNOLOGIES: HTML and CSS. PREPROCESSOR: SASS. CONCEPTS: BEM Methodology, Mixins, Variables, Functions and Responsive Design.</p>
