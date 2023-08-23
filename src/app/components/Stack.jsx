@@ -11,6 +11,7 @@ import iconNextJS from '../assets/icons/icon-nextjs.svg';
 import iconSass from '../assets/icons/icon-sass.svg';
 import iconTailwindcss from '../assets/icons/icon-tailwindcss.svg';
 import iconAstro from '../assets/icons/icon-astro.svg';
+import iconWordpress from '../assets/icons/icon-wordpress.svg';
 
 export default function Stack() {
   return (
@@ -58,6 +59,10 @@ export default function Stack() {
             <ul className={styles.technologiesList}>
               <Image src={iconGit} width={75} height={75} alt="icon-git"></Image>
               <h3>Git</h3>
+            </ul>
+            <ul className={styles.technologiesList}>
+              <Image src={iconWordpress} width={75} height={75} alt="icon-wordpress"></Image>
+              <h3>WordPress</h3>
             </ul>
           </div>
         </div>
