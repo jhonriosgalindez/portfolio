@@ -59,16 +59,16 @@ export default function Projects() {
           </ul>
         </div>
         <div className={styles.card}>
-          <h3 className={styles.cardTitle}>Green Fruit Store</h3>
+          <h3 className={styles.cardTitle}>Nexus Restaurant</h3>
           <article className={`${styles.cardItem} ${styles.cardItem3}`}>
-            <p className={styles.cardParagraph}>TECHNOLOGIES: HTML, CSS, JavaScript and Webpack. FRAMEWORK AND LIBRARIES: ReactJS, NextJS. CONCEPTS: React Hooks, events, components, API consumption, image optimization, nextjs configuration and Responsive Design.</p>
+            <p className={styles.cardParagraph}>TECHNOLOGIES: TailwindCSS and JavaScript. FRAMEWORK AND LIBRARIES: ReactJS, Astro. CONCEPTS: Components and Responsive Design.</p>
           </article>
           <ul className={styles.cardList}>
-            <a className={styles.cardLink} width={30} height={30} href="https://github.com/jhonriosgalindez/green-fruit-store" target='_blank'>
+            <a className={styles.cardLink} width={30} height={30} href="https://github.com/jhonriosgalindez/nexus-restaurant" target='_blank'>
               <Image src={iconGithub} alt="icon-github"/>
               <span className={styles.cardTextLink}>Repository</span>
             </a>
-            <a className={styles.cardLink} width={30} height={30} href="https://green-fruit-store.vercel.app/" target='_blank'>
+            <a className={styles.cardLink} width={30} height={30} href="https://jhonrios-nexus-restaurant.netlify.app/" target='_blank'>
               <span className={styles.cardTextLink}>Vercel</span>
               <Image src={iconVercel} alt="icon-vercel"/>
             </a>
